@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/newsign.css" rel="stylesheet">
+    <link href="./css/homepage.css" rel="stylesheet">
+</head>
+<body>
+    <div id="mid">
+        <a href="/homepage">
+            <img src="./img/d.png" class="profile">
+        </a>
+    </div>
+    <div id="end" style="border-bottom:1px solid gray;">
+        <button class="btn-1" onclick="location.href='/homepage'">홈으로 돌아가기</button>
+        <button class="btn-1" onclick="location.href='/login'">Login</button>
+    </div>
+    <section class="newsign">
+        <form action="/join" method="POST">
+        <table>
+        <tr>
+            <td><h2>회원가입</h2></td>
+        </tr>
+        <tr>
+            웹창에 8080뒤에 '/join'을 친 후 입력하시오.
+        </tr>
+        <tr><td>아이디</td></tr>
+        <tr><td><input type="text" class="text" name="id"></td></tr>
+        <tr><td>비밀번호</td></tr>
+        <tr><td><input type="password" class="text" name="pw"></td></tr>
+        <tr><td>이름</td></tr>
+        <tr><td><input type="text" class="text"></td></tr>
+        <tr><td>생년월일</td></tr>
+        <tr><td><input type="date" class="text"></td></tr>
+        <tr><td>이메일</td></tr>
+        <tr>
+            <td><input type="text" class="email">
+                <select>
+                    <option>naver.com</option>
+                    <option>gmail.com</option>
+                    <option>daum.net</option>
+                    <option>nate.com</option>
+                </select>
+            </td>
+        </tr>
+        <tr><td><input type="submit" value="가입하기" class="btn" 
+            onclick="location.href='/login'"></td></tr>
+        </table>
+        </form>
+    </section>
+    </body>
+</html>

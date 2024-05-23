@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/community.css" rel="stylesheet">
+    <link href="./css/homepage.css" rel="stylesheet">
+</head>
+<body>
+    <div id="mid">
+        <a href="/homepage">
+            <img src="./img/d.png" class="profile">
+        </a>
+    </div>
+    <div id="end" style="border-bottom:1px solid gray;">
+        <button class="btn-1" onclick="location.href='/community'">커뮤니티로 돌아가기</button>
+        <button class="btn-1" onclick="location.href='/write'">게시글 작성</button>
+    </div>
+    <h1 class="con">게시글 상세</h1>
+    <section class="article-detail table-common con row">
+        <div class="article-writer cell">
+                <div class="writer-icon">이미지</div>
+                <span>작성자</span>
+        </div>
+        <div class="con reply">
+            <h1 class="">댓글 입력</h1>
+            <section class="reply-form">
+                <form action="return false;">
+                    <div>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <textarea></textarea>
+                        <input type="submit">
+                    </div>
+                </form>
+            </section>
+        
+            <h1 class="">댓글 목록</h1>
+            <section class="reply-list table-common">
+                <table border="1">
+                    <colgroup>
+                        <col width="100px">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>내용1</th>
+                            <th>내용2</th>
+                            <th>내용3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>내용1</td>
+                            <td>내용2</td>
+                            <td>내용3</td>
+                        </tr>
+                        <tr>
+                            <td>내용1</td>
+                            <td>내용2</td>
+                            <td>내용3</td>
+                        </tr>
+                        <tr>
+                            <td>내용1</td>
+                            <td>내용2</td>
+                            <td>내용3</td>
+                        </tr>
+                        <tr>
+                            <td>내용1</td>
+                            <td>내용2</td>
+                            <td>내용3</td>
+                        </tr>
+                        <tr>
+                            <td>내용1</td>
+                            <td>내용2</td>
+                            <td>내용3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        
+</body>
+</html>

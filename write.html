@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/community.css" rel="stylesheet">
+    <link href="./css/homepage.css" rel="stylesheet">
+</head>
+<body >
+    <div id="mid" style="border-bottom:1px solid gray;">
+        <a href="homepage.html">
+            <img src="./img/d.png" class="profile">
+        </a>
+    </div>
+    <div >
+    <table class="cell" border="1">
+        <colgroup>
+            <col width="100px">
+        </colgroup>
+        <tbody>
+            <tr class="article-title">
+                <th>제목</th>
+                <td colspan="3"><input type="text"></td>
+            </tr>
+            <tr class="article-info">
+                <th>익명 선택</th>
+                <td><input type="text"></td>
+                <th>게시판 입력</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr class="article-body">
+                <td colspan="4">
+                    게시판 종류는 '입시 게시판, 1~3학년 게시판, 일상 게시판' 중에 고르세요.
+                    각 게시판 종류에 맞는 게시글을 작성해주세요.
+                    게시판에 적을 때는 익명임에도 불구하고 불건전한 내용을 작성할 시 처벌이 가해질 수 있습니다.
+                    모두가 보는 게시판인 만큼 유의해서 적으시길 바랍니다.
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    내용 작성
+                </th>
+                <td colspan="3">
+                    <form>
+                        <textarea cols="104" rows="30" placeholder="내용 작성"></textarea>
+                        </form>
+                </td>
+            </tr>
+        </tbody>
+    </div>
+    <div id="end">
+        <button class="btn-1" onclick="location.href='/community'">커뮤니티로 돌아가기</button>
+        <button class="btn-1" onclick="location.href='/community'">게시하기</button>
+    </div>
+    </table>
+    
+</body>
+</html>

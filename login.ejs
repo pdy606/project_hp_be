@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/login.css" rel="stylesheet">
+    <link href="./css/homepage.css" rel="stylesheet">
+</head>
+<body>
+    <form action="/login" method="POST">
+        <div id="mid">
+            <a href="/homepage">
+                <img src="./img/d.png" class="profile">
+            </a>
+        </div>
+        <div id="end" style="border-bottom:1px solid gray;">
+            <h4><a href="/homepage">홈으로 돌아가기</a></h4>
+        </div>
+        <section class="login">
+            <table>
+                <tr>
+                    <td><h2>Login</h2></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="username" placeholder="ID"></td>
+                </tr>
+                <tr>
+                    <td><input type="password" name="password" 
+                    placeholder=Password></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Sign in" 
+                    class="btn" ></td>
+                </tr>
+                <tr>
+                    <td class="newsign"><a href="/join">
+                    회원가입</a></td>
+                </tr>
+            </table>
+        </section>
+    </form>    
+</body>
+</html>
